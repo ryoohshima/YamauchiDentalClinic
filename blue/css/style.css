@@ -122,7 +122,7 @@ p {
   justify-content: space-between;
 }
 #header_menu a {
-  width: 16.5%;
+  width: calc(100% / 6);
   border: 1px solid #265fa9;
   padding: 1% 0;
   text-align: center;
@@ -584,7 +584,7 @@ footer p {
     flex-wrap: wrap;
   }
   #header_menu a {
-    width: 47.47%;
+    width: calc(100% / 2 - 2% - 2px);
     padding: 3% 1%;
     font-size: 3.5vw;
   }
