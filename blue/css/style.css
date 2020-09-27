@@ -3,6 +3,7 @@
  ** key color    : #269464 (green)
  **  ->(light)   : #edfff0
  ** sub color    : #265fa9 (blue)
+ **  ->(light)   : #dee2f1
  ** strong color : #cd453c
  */
 
@@ -63,7 +64,7 @@ p {
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
-  background-color: #cd453c;
+  background-color: #265fa9;
   border-radius: 2px;
 }
 
@@ -78,7 +79,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #cd453c;
+  background-color: #265fa9;
   padding: 0.5% 0;
 }
 #header_logo {
@@ -122,12 +123,12 @@ p {
 }
 #header_menu a {
   width: 16.5%;
-  border: 1px solid #cd453c;
+  border: 1px solid #265fa9;
   padding: 1% 0;
   text-align: center;
   font-weight: bold;
   font-size: 1.2vw;
-  color: #cd453c;
+  color: #265fa9;
 }
 
 /* eyecatch */
@@ -158,7 +159,7 @@ p {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #cd453c;
+  background-color: #265fa9;
   padding: 0.5% 0;
 }
 .header_info_wrap {
@@ -170,9 +171,9 @@ p {
   text-align: center;
 }
 #header_info_table table {
-  background-color: #cd453c;
+  background-color: #265fa9;
   width: 100%;
-  border: 1px solid #cd453c;
+  border: 1px solid #265fa9;
   margin-bottom: 1%;
 }
 #header_info_table th, #header_info_table td {
@@ -249,7 +250,7 @@ p {
   margin-bottom: 1.5%;
 }
 #brief_history_title {
-  background-color: #cd453c;
+  background-color: #265fa9;
   padding: 1%;
 }
 #brief_history_title p {
@@ -260,7 +261,7 @@ p {
 #brief_history ul {
   list-style: none;
   padding: 1%;
-  border: 1px solid #cd453c;
+  border: 1px solid #265fa9;
 }
 #brief_history li {
   font-size: 1.1vw;
@@ -305,7 +306,7 @@ p {
 .point_text h4 {
   margin: 5% 0;
   font-size: 1.4vw;
-  color: #cd453c;
+  color: #265fa9;
   text-align: center;
 }
 .point_text p {
@@ -369,8 +370,8 @@ p {
 .treatment_content_box_title {
   margin-bottom: 5%;
   padding: 2%;
-  border-left: 5px solid #cd453c;
-  background-color: #edfff0;
+  border-left: 5px solid #265fa9;
+  background-color: #dee2f1;
 }
 .treatment_content_box_title p {
   font-weight: bold;
@@ -420,11 +421,11 @@ p {
 }
 #about_inner table {
   width: 80%;
-  background-color: #cd453c;
+  background-color: #265fa9;
 }
 #about_inner th {
   padding: 1%;
-  background-color: #cd453c;
+  background-color: #265fa9;
   color: #ffffff;
 }
 #about_inner td {
@@ -438,7 +439,7 @@ p {
  */
 
 footer {
-  background-color: #cd453c;
+  background-color: #265fa9;
   padding: 1%;
 }
 footer p {
@@ -547,7 +548,7 @@ footer p {
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
-    background-color: #cd453c;
+    background-color: #265fa9;
     border-radius: 2px;
   }
 
