@@ -28,6 +28,7 @@ $(function(){
            768: {
              slidesPerView: 2,
              spaceBetween: 30,
+             autoHeight: true
            }
          }
     });
@@ -41,6 +42,23 @@ $(function(){
         } else {
             fixedButton.fadeOut();
         }
+    });
+
+    // adjust spn footer menu
+    $(window).on('load scroll resize', function(){
+        const scrollTop = $(window).scrollTop();
+        const scrollMax = $(document).height() - window.innerHeight;
+
+        if(scrollTop >= scrollMax){
+            $('#spn_footer_menu').css('bottom','2%');
+            $('#pc_footer_menu').css('bottom','5%');
+            $('#page_top').css('bottom','5%');
+        }else{
+            $('#spn_footer_menu').css('bottom','0');
+            $('#pc_footer_menu').css('bottom','1%');
+            $('#page_top').css('bottom','1%');
+        }
+
     });
 });
 
